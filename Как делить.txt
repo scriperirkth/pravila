@@ -1,0 +1,1 @@
+py .\split_xml.py ".\ПравилаОбменаДанными.xml" --mb 0.02 --out readable_20kb
