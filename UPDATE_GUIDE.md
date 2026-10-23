@@ -15,8 +15,10 @@
 После проверки справки существующей версии split_xml.py пример PowerShell:
 
 ```powershell
-py .\split_xml.py --help
-py .\split_xml.py "D:\sources\SelectedRules.xml" --mb 0.02 --out "D:\stagingules_parts_new"
+py ./split_xml.py --help
+py ./split_xml.py "D:/sources/SelectedRules.xml" `
+    --mb 0.02 `
+    --out "D:/staging/rules_parts_new"
 ```
 
 Пути условные; каталог результата должен отсутствовать. Убедитесь, что справка подтверждает эти параметры. Не дописывайте файлы в старый набор: остаток старых частей способен смешать разные исходники.
